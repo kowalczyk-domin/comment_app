@@ -1,0 +1,15 @@
+{
+  "name": "comment_app",
+  "version": "1.0.0",
+  "description": "backend-comment_app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Dominik Kowalczyk",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
