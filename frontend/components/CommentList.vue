@@ -64,17 +64,6 @@ export default {
   methods: {
     async getComments() {
       try {
-        //     const response = await axios.get(`${process.env.backendUrl}/comments`)
-        //     this.comments = response.data
-        // 2 cześć
-        // const response = await axios.get(`${process.env.backendUrl}/comments`)
-        // this.comments = response.data.map((comment) => {
-        //   // Tworzenie obiektu daty z ciągu znaków pobranego z API
-        //   const date = new Date(comment.createdAt)
-        //   // Formatowanie daty za pomocą metody toLocaleString()
-        //   const formattedDate = date.toLocaleString()
-        //   // Dodanie sformatowanej daty do obiektu komentarza
-        //   return { ...comment, formattedDate }
         const response = await axios.get(`${process.env.backendUrl}/comments`)
         this.comments = response.data.map((comment) => {
           const timeDiff = Date.now() - new Date(comment.createdAt).getTime()
