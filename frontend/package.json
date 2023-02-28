@@ -24,6 +24,8 @@
     "nuxt": "^2.15.8",
     "openssl": "^2.0.0",
     "sequelize": "^6.29.0",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1",
     "vue": "^2.7.14",
     "vue-server-renderer": "^2.7.14",
     "vue-template-compiler": "^2.7.10"

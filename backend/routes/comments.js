@@ -68,7 +68,7 @@ router.get("/", (req, res) => {
         result.id,
         result.message,
         result.author,
-        result.created_at
+        result.createdAt
       );
     });
 
