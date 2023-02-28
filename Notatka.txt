@@ -1,0 +1,6 @@
+Witam. Apka działa w pełni wedle założeń projektu. Ja z niej korzystałem w następujacy sposób:
+1. Odpalenie modułów 'Apache' oraz 'MySQL' przy pomocy Xampp Control Panel v3.3.0
+2. Odpalenie serwera appki: comment_app/backend: 'node app.js'
+3. Odpalenie warstwy frontendowej: comment_app/frontend 'npm run dev'
+4. Voilà ! Apka dodaje i wyświetla komentarze
+4a. Komentarze można usuwać z poziomu bazy danych w phpMyAdmin
